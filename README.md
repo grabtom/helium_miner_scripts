@@ -93,3 +93,5 @@ Check the current running miner version
 ```
 $ docker container inspect -f '{{.Config.Image}}' miner | awk -F: '{print $2}'
 ```
+
+Test update...
